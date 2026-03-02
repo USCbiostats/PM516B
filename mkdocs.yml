@@ -1,0 +1,89 @@
+site_name: PM516 - Biostatistical Consulting
+site_description: Consulting Foundations (A) and Practicum (B)
+site_author: Trevor Pickering
+# site_url: [link]
+
+theme:
+  name: material
+  icon:
+    logo: material/home
+  features:
+    - navigation.tracking
+    - navigation.top
+    - navigation.tabs
+    - navigation.tabs.sticky
+  palette:
+    - scheme: default
+      primary: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+plugins:
+  - search
+
+extra:
+  social:
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/trevor-pickering-0730081a5/
+    - icon: fontawesome/solid/paper-plane
+      link: mailto:tpickeri@usc.edu
+  generator: false
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - meta
+  - tables
+  - toc:
+      permalink: true
+
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji 
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.highlight:
+      linenums: true
+  - pymdownx.inlinehilite
+  #- pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tabbed
+  #   alternate_style: true 
+  - pymdownx.tasklist:
+      custom_checkbox: true
+      clickable_checkbox: true
+
+extra_javascript:
+  # for mathjax
+  - javascripts/mathjax.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+  # for tablesort
+  - https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js
+  - javascripts/tablesort.js
+
+extra_css:
+  - css/section-colors.css
+
+nav:
+  - Home: index.md
+  - PM516A:
+    - Overview: PM516A/index.md
+    - Syllabus: PM516A/syllabus.md
+    - Weekly Content: PM516A/content.md
+    - Past Projects: PM516A/projects.md
+  - PM516B:
+    - Overview: PM516B/index.md
+    - Syllabus: PM516B/syllabus.md
+    - Timeline: PM516B/content.md
+    - Past Projects: PM516B/projects.md
+
+
