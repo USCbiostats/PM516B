@@ -1,7 +1,13 @@
 /* =========================================================
-   PM516 section header/tab colors (NO JS, robust to relative hrefs)
-   Uses active tab position in the tabs list.
+   PM516A: site-wide header + tabs color (all pages, all tabs)
    ========================================================= */
+
+/* Header + tabs background */
+.md-header,
+.md-header__inner,
+.md-tabs {
+  background-color: #4b2e83 !important;
+}
 
 /* Make header + tabs text white everywhere */
 .md-header, .md-header *,
@@ -9,28 +15,14 @@
   color: #fff !important;
 }
 
-/* HOME = first top-level tab */
-header.md-header:has(.md-tabs__list > .md-tabs__item:nth-child(1).md-tabs__item--active),
-header.md-header:has(.md-tabs__list > .md-tabs__item:nth-child(1).md-tabs__item--active) .md-header__inner,
-header.md-header:has(.md-tabs__list > .md-tabs__item:nth-child(1).md-tabs__item--active) .md-tabs {
-  background-color: #1f2a44 !important;
+/* Optional: make the active tab pop a bit */
+.md-tabs__link--active {
+  opacity: 1 !important;
+  font-weight: 600 !important;
 }
-
-/* PM516A = second top-level tab */
-header.md-header:has(.md-tabs__list > .md-tabs__item:nth-child(2).md-tabs__item.md-tabs__item--active),
-header.md-header:has(.md-tabs__list > .md-tabs__item:nth-child(2).md-tabs__item.md-tabs__item--active) .md-header__inner,
-header.md-header:has(.md-tabs__list > .md-tabs__item:nth-child(2).md-tabs__item.md-tabs__item--active) .md-tabs {
-  background-color: #1f3c88 !important;
+.md-tabs__link {
+  opacity: 0.85;
 }
-
-/* PM516B = third top-level tab */
-header.md-header:has(.md-tabs__list > .md-tabs__item:nth-child(3).md-tabs__item.md-tabs__item--active),
-header.md-header:has(.md-tabs__list > .md-tabs__item:nth-child(3).md-tabs__item.md-tabs__item--active) .md-header__inner,
-header.md-header:has(.md-tabs__list > .md-tabs__item:nth-child(3).md-tabs__item.md-tabs__item--active) .md-tabs {
-  background-color: #4b2e83 !important;
+.md-tabs__link:hover {
+  opacity: 1;
 }
-
-/* Optional: active link tints */
-header.md-header:has(.md-tabs__list > .md-tabs__item:nth-child(1).md-tabs__item--active) .md-tabs__link--active { color: #c5cae9 !important; }
-header.md-header:has(.md-tabs__list > .md-tabs__item:nth-child(2).md-tabs__item--active) .md-tabs__link--active { color: #cbd7f7 !important; }
-header.md-header:has(.md-tabs__list > .md-tabs__item:nth-child(3).md-tabs__item--active) .md-tabs__link--active { color: #d7cfe8 !important; }
