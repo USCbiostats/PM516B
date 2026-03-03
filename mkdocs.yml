@@ -74,9 +74,9 @@ extra_css:
   - css/section-colors.css
 
 nav:
-  - Overview: PM516B/index.md
-  - Syllabus: PM516B/syllabus.md
-  - Timeline: PM516B/content.md
-  - Past Projects: PM516B/projects.md
+  - Home: index.md
+  - Syllabus: syllabus.md
+  - Timeline: content.md
+  - Past Projects: projects.md
 
 
