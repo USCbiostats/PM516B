@@ -1,5 +1,9 @@
 # Timeline
 
+The dates listed below represent **final deadlines** for course milestones. Because PM516B is based on a consulting engagement (approximately 40 hours of work), students may complete project components earlier if their analysis progresses more quickly.
+
+Consulting work also involves coordinating with investigators whose schedules and priorities may vary. Students should remain flexible and responsive to client timelines while still ensuring that course deadlines are met.
+
 | Week | Task | Deliverable |
 | :-: | :-- | :-- |
 | Week 2 <br /> F 1/23 |  🎥 [How IRBs Protect Human Research Participants](https://www.youtube.com/watch?v=U8fme1boEbE) (7 Minutes) <br /> 🖥️ [USC iStar IRB](https://istar.usc.edu) (2 Minutes) | ☑ Log into the USC iStar site. This will create an account for you in the system. |
