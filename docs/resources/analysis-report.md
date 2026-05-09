@@ -1,24 +1,28 @@
 # Analysis Report
 
-In this class, instead of creating a presentation for a client, we will be writing an analysis report. The analysis report should consist of at least one table and at least one graphic. Try to keep the report to 5 total pages, though it may be longer. While there are many potential ways to do this, I like to construct my report slightly differently by including:
+In this class, instead of creating a presentation for a client, we will be writing an analysis report. The analysis report should consist of at least one table and at least one graphic. Try to keep the report to 5 total pages, though it may be longer. While there are many potential ways to do this, I like to construct my report as follows:
 
 ## Executive Summary
-* Before the report, summarize the key points and findings for your client. 
-* Make sure the summary has a clear take-home message.
-* Write the summary using the ADEPT method (this will be explained later): make sure it is presented in everyday language and is clear to a non-technical audience.
-## Background & Goals
-* Explain background on why the study was done and any other pertinent background information.
-* Describe the scope of the analysis you will be presenting.
+* Key Findings - Briefly state the research questions and findings corresponding to each of these in plain language. It should be undesrstandable to a non-statistical audience.
+* Take-Home Message - If there is a bottom-line conclusions that spans your analyses, provide it concisely. Avoid technical detail and recommendations.
+## Background & Objectives
+* Study Context - Your client knows this, but it doesn't hurt to briefly explain the scientific/clinical background relevant to the analysis.
+* Objectives - Clearly state the primary (and secondary, etc.) research questions that your analysis will address. Note if any of these are [exploratory](https://researcher-help.prolific.com/en/articles/445251-am-i-doing-exploratory-or-confirmatory-research-why-does-it-matter) in nature.
 ## Study Design & Data
-* Describe the study design (experimental, cohort, etc.) as it pertains to the analysis you will be performing.
-* Explain how the samples were chosen, where the data is from, and anything unusual about the data.
-* List the variables you used and any possible manipulations or transformations you have performed.
-* Explain any data cleaning you performed, and perhaps a preliminary table or graphic.
+* Study Design - Comment on the type of study (experimental, cohort, cross-sectional, etc.) and how it impacts interpretation (causal, association).
+* Data Source - Explain how the data were obtained, and note important features of the data set. 
+* Sample - State the inclusion/exclusion criteria, initial sample size, and final analytic sample size. 
+* Variables - List the variables you used (outcomes, predictors, covariates) and any possible manipulations or transformations you have performed.
+* Missingness - Comment on the extent of missingness, and whether this missingness is expected (e.g., due to skip patterns).
+* Data Processing - Explain any data cleaning you performed, and perhaps a preliminary table or graphic (it is common to have a table of the demographic characteristics of your final sample).
 ## Statistical Methods
-* Explain which statistical method you used and why you are using this method to answer the research question.
-* Include output that you used to answer the question.
+* Analytical Approach - Specify which statistical methods or models you used and justify their appropriateness to address the research questions. 
+* Assumptions - State key assumptions underlying the methods.
+* Implementation - To aid in reproducibility, note software and packages used, without excessive detail.
 ## Results
-* Present all results, including estimated values and confidence intervals in addition to p-values.
-* Be sure to explain the results in context of the original research question.
-* Make a couple tables and/or graphics to convey the results.
-* Ensure the subject matter questions have been answered.
+* Primary Findings - Present estimates (e.g., means, differences, regression coefficients), confidence intervals, and p-values as appropriate.
+* Tables and Figures - Include clear tables and/or figures that effectively summarize the findings. Ensure they are labeled and interpretable on their own.
+* Extra Output - If there is extra output that may be useful, you may wish to include it in an appendix at the end of the main report.
+## Synthesis
+* Interpretation - Interpret the results in terms of direction, magnitude, and uncertainty. Use the study design and analysis to clarify [what conclusions are justified](https://guides.library.stonybrook.edu/evidence-based-medicine/levels_of_evidence) by the data. Do not extend beyond the scope of the analysis.
+* Limitations - Discuss threats to analytic validity, such as: missing data, sources of measurement error, sample size issues, confounding, or violations of assumptions. 

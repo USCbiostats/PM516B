@@ -46,7 +46,7 @@ This course is graded credit/no credit and there is no point breakdown. Instead,
 
 Students should expect to schedule at least 5 meetings over the semester:
 
-* Initial Meeting - Once the project is assigned, meet with the client (and instructor, if possible). After the meeting,  send the client and instructor a consultation follow-up e-mail that discusses the scope of work and appropriate timelines for the project.
+* Initial Meeting. Once the project is assigned, meet with the client (and instructor, if possible). After the meeting,  send the client and instructor a consultation follow-up e-mail that discusses the scope of work and appropriate timelines for the project.
 * Interim Meetings. At least one interim meeting should be scheduled with the instructor and client collaborator to discuss statistical or substantive issues with the analysis, with additional meetings on an as-needed basis. 
 * Final Meeting (Instructor). Before presenting the final analyses to the client, the student should schedule a meeting with the instructor to review the accuracy and interpretation of results to be presented in their analysis report.
 * Final Meeting (Client). The final meeting will be focused on presenting the analyses to the client (and instructor should be included, if possible).
