@@ -1,5 +1,5 @@
 # PM516B — Biostatistical Consulting (Practicum)
-Spring 2026
+Summer 2026
 
 ## Overview
 
