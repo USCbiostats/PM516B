@@ -1,0 +1,28 @@
+/* =========================================================
+   PM516A: site-wide header + tabs color (all pages, all tabs)
+   ========================================================= */
+
+/* Header + tabs background */
+.md-header,
+.md-header__inner,
+.md-tabs {
+  background-color: #4b2e83 !important;
+}
+
+/* Make header + tabs text white everywhere */
+.md-header, .md-header *,
+.md-tabs, .md-tabs * {
+  color: #fff !important;
+}
+
+/* Optional: make the active tab pop a bit */
+.md-tabs__link--active {
+  opacity: 1 !important;
+  font-weight: 600 !important;
+}
+.md-tabs__link {
+  opacity: 0.85;
+}
+.md-tabs__link:hover {
+  opacity: 1;
+}
