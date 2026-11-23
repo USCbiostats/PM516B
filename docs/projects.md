@@ -2,6 +2,8 @@
 
 | Semester | Investigator | Department | Project Title |
 |----------|--------------|------------|---------------|
+| **Summer 2026** |  |  |  |
+|  | Lina D'Orazio | Neurology | Identifying Targets for Intervention on Cognitive Decline for Individuals with Type 2 Diabetes |
 | **Spring 2026** |  |  |  |
 |  | Nhu Tran | Pediatrics (CHLA) | Effect of CO2, pH, and Lactate on Cerebral Oxygenation and Cerebrovascular Stability Index in Neonates with Congenital Heart Defects |
 |  | Nhu Tran | Pediatrics (CHLA) | Effect of Cerebrovascular Health Indices on Neurodevelopmental Outcomes |
